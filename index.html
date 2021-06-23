@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- ICONS -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
@@ -19,7 +22,7 @@
   </head>
   <body>
     <header id="header">
-      <nav class="container show">
+      <nav class="container">
         <a class="logo" href="#">beauty<span>salon.</span></a>
         <!--  MENU  -->
         <div class="menu">
@@ -32,8 +35,8 @@
           </ul>
         </div>
 
-        <div class="open">...</div>
-        <div class="close">x</div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
@@ -60,12 +63,44 @@
       <div class="divider-1"></div>
 
       <section class="section" id="about">
-        <div class="container grid">Sobre</div>
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="3 mulheres sorrindo"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              ea placeat vitae minus facere labore facilis cum delectus esse
+              velit harum expedita magni laborum quia inventore dignissimos,
+              pariatur at! Excepturi.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
+              fuga aspernatur ex perferendis quibusdam earum itaque fugit sint
+              expedita consequatur, eius quos nemo culpa repellat veniam,
+              repellendus harum tempore praesentium!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Molestias architecto accusamus deleniti in repudiandae libero.
+              Omnis, minima vel cupiditate aut impedit officia nihil
+              necessitatibus non ipsam, neque magnam. Accusantium, adipisci!
+            </p>
+          </div>
+        </div>
       </section>
 
       <section class="section" id="services">
         <div class="container grid">Serviços</div>
       </section>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
