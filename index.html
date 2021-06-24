@@ -9,6 +9,12 @@
     <!-- Icones -->
     <link rel="stylesheet" href="assets/fonts/style.css" />
 
+    <!--  SuiperJS:  https://swiperjs.com/get-started   -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
@@ -61,6 +67,7 @@
 
       <div class="divider-1"></div>
 
+      <!-- ABOUT -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -97,6 +104,7 @@
 
       <div class="divider-2"></div>
 
+      <!-- SERVICES -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -138,8 +146,76 @@
           </div>
         </div>
       </section>
-    </main>
 
+      <div class="divider-1"></div>
+      <!--  TESTIMONIALS  -->
+      <section class="section" id="testemonials">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Neque nobis vel incidunt voluptas quo.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/fotos/44.jpg"
+                      alt="Foto de Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Neque nobis vel incidunt voluptas quo.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/fotos/36.jpg"
+                      alt="Foto de Jeane Timoteo"
+                    />
+                    Jeane Timoteo
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Neque nobis vel incidunt voluptas quo.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/fotos/27.jpg"
+                      alt="Foto de Rosangela Almeida"
+                    />
+                    Rosangela Almeida
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Carousel slider swiper   -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--  main.js Javascript  -->
     <script src="main.js"></script>
   </body>
 </html>
