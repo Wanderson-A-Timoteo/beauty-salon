@@ -882,3 +882,122 @@ footer .social a:hover {
     margin-right: 1.5rem;
   }
 }
+
+/* ------------------------------------------------------------------------- */
+/* medium devices: 425 > */
+@media (max-width: 425px) {
+  /* reusable classes */
+  .container {
+    max-width: 350px;
+  }
+
+  /*  home  */
+  #home .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*  About  */
+  #about .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about .text .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+
+  #about .text p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /*  Services  */
+  #services .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #services header {
+    max-width: 350px;
+  }
+
+  #services header .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+
+  #services header p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #services .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* Testimonials */
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #testimonials header .title {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  /* Contact */
+  #contact .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact .text .title {
+    text-align: center;
+  }
+
+  #contact .text p {
+    text-align: center;
+  }
+
+  /* Footer */
+  footer .container {
+    display: block;
+  }
+
+  footer .social {
+    margin-top: 2.5rem;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+/* medium devices: 320px > */
+@media (max-width: 320px) {
+  /* reusable classes */
+  #contact .text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact .text a {
+    margin-left: 2.5rem;
+  }
+
+  #contact .links {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer .container {
+    max-width: 280px;
+  }
+}
